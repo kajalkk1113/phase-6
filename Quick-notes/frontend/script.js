@@ -10,7 +10,7 @@ const content = document.getElementById("content").value;
 
 try {
 
-    const response = await fetch("http://localhost:3000/note", {
+    const response = await fetch("https://quick-notes-backend-rh91.onrender.com/note", {
         method: "POST",
 
         headers: {
