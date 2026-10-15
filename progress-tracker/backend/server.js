@@ -71,7 +71,6 @@ app.get("/tracker-sheet",async (req,res) => {
     }
 })
 
-app.listen(3000,()=>{
-    console.log("server statrted");
-    
-})
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`Server started on port ${PORT}`);
+});

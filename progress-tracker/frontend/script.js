@@ -1,6 +1,5 @@
 const form = document.getElementById("form");
 
-// POST - Add data
 
 form.addEventListener("submit", async (e) => {
 
@@ -21,7 +20,7 @@ const complete =
 try {
 
     const response = await fetch(
-        "http://localhost:3000/tracker",
+        "https://progress-tracker-backend-3jes.onrender.com/tracker",
         {
             method: "POST",
 
